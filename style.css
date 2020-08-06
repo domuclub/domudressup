@@ -1,0 +1,44 @@
+/* CSS files add styling rules to your content */
+@font-face {
+  font-family: y2k;
+  src: url("https://cdn.glitch.com/d01214b1-853f-42b2-a3b0-cd33be7b0e47%2FYear%202000.ttf?v=1594554059635");
+}
+
+@font-face {
+  font-family: nice;
+  src: url("https://cdn.glitch.com/d01214b1-853f-42b2-a3b0-cd33be7b0e47%2FHeading-Pro-Wide-Regular-trial.ttf?v=1594554365049");
+}
+
+body {
+  font-family: nice, arial, sans-serif;
+  margin: 50px;
+}
+
+h1 {
+  font-family: nice;
+  font-style: italic;
+  color: #fffff;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+#place {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
